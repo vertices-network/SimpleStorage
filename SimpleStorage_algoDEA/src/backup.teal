@@ -1,0 +1,70 @@
+#pragma version 2
+
+int 0
+txn ApplicationID
+==
+bnz creation
+
+txna ApplicationArgs 0
+btoi
+dup
+store 0
+byte "MinValue"
+app_global_get
+!=
+bnz setMin
+
+// dup
+// store 0
+// byte "MaxValue"
+// app_global_get
+// <=
+// bnz setMax
+
+setMin:
+byte "MinValue"
+load 0
+app_global_put
+
+// setMax:
+// byte "MaxValue"
+// load 0
+// app_global_put
+
+
+// byte "NumberOfValues"
+// dup
+// app_global_get
+// int 1
+// +
+// app_global_put
+
+
+// load return value as approval
+int 1
+return
+
+creation:
+byte "MinValue"
+int 0
+app_global_put
+
+byte "MaxValue"
+int 0
+app_global_put
+
+byte "SumOfValues"
+int 0
+app_global_put
+
+byte "NumberOfValues"
+int 0
+app_global_put
+
+int 1
+return
+
+
+
+
+

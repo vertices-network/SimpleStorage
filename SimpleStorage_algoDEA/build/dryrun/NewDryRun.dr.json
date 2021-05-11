@@ -1,0 +1,252 @@
+{
+  "app-call-messages" : [ "ApprovalProgram", "PASS" ],
+  "app-call-trace" : [ {
+    "error" : null,
+    "line" : 1,
+    "pc" : 1,
+    "scratch" : [ ],
+    "stack" : [ ]
+  }, {
+    "error" : null,
+    "line" : 2,
+    "pc" : 5,
+    "scratch" : [ ],
+    "stack" : [ ]
+  }, {
+    "error" : null,
+    "line" : 3,
+    "pc" : 52,
+    "scratch" : [ ],
+    "stack" : [ ]
+  }, {
+    "error" : null,
+    "line" : 4,
+    "pc" : 53,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 5,
+    "pc" : 55,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 15829313
+    } ]
+  }, {
+    "error" : null,
+    "line" : 6,
+    "pc" : 56,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 7,
+    "pc" : 59,
+    "scratch" : [ ],
+    "stack" : [ ]
+  }, {
+    "error" : null,
+    "line" : 8,
+    "pc" : 62,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "AAAAAAAAAAg=",
+      "type" : 1,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 9,
+    "pc" : 63,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 8
+    } ]
+  }, {
+    "error" : null,
+    "line" : 10,
+    "pc" : 64,
+    "scratch" : [ ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 8
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 8
+    } ]
+  }, {
+    "error" : null,
+    "line" : 11,
+    "pc" : 66,
+    "scratch" : [ {
+      "bytes" : "",
+      "type" : 0,
+      "uint" : 8
+    } ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 8
+    } ]
+  }, {
+    "error" : null,
+    "line" : 12,
+    "pc" : 67,
+    "scratch" : [ {
+      "bytes" : "",
+      "type" : 0,
+      "uint" : 8
+    } ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 8
+    }, {
+      "bytes" : "TWluVmFsdWU=",
+      "type" : 1,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 13,
+    "pc" : 68,
+    "scratch" : [ {
+      "bytes" : "",
+      "type" : 0,
+      "uint" : 8
+    } ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 8
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 3
+    } ]
+  }, {
+    "error" : null,
+    "line" : 14,
+    "pc" : 69,
+    "scratch" : [ {
+      "bytes" : "",
+      "type" : 0,
+      "uint" : 8
+    } ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 1
+    } ]
+  }, {
+    "error" : null,
+    "line" : 16,
+    "pc" : 72,
+    "scratch" : [ {
+      "bytes" : "",
+      "type" : 0,
+      "uint" : 8
+    } ],
+    "stack" : [ ]
+  }, {
+    "error" : null,
+    "line" : 17,
+    "pc" : 73,
+    "scratch" : [ {
+      "bytes" : "",
+      "type" : 0,
+      "uint" : 8
+    } ],
+    "stack" : [ {
+      "bytes" : "TWluVmFsdWU=",
+      "type" : 1,
+      "uint" : 0
+    } ]
+  }, {
+    "error" : null,
+    "line" : 18,
+    "pc" : 75,
+    "scratch" : [ {
+      "bytes" : "",
+      "type" : 0,
+      "uint" : 8
+    } ],
+    "stack" : [ {
+      "bytes" : "TWluVmFsdWU=",
+      "type" : 1,
+      "uint" : 0
+    }, {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 8
+    } ]
+  }, {
+    "error" : null,
+    "line" : 19,
+    "pc" : 76,
+    "scratch" : [ {
+      "bytes" : "",
+      "type" : 0,
+      "uint" : 8
+    } ],
+    "stack" : [ ]
+  }, {
+    "error" : null,
+    "line" : 20,
+    "pc" : 77,
+    "scratch" : [ {
+      "bytes" : "",
+      "type" : 0,
+      "uint" : 8
+    } ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 1
+    } ]
+  }, {
+    "error" : null,
+    "line" : 36,
+    "pc" : 92,
+    "scratch" : [ {
+      "bytes" : "",
+      "type" : 0,
+      "uint" : 8
+    } ],
+    "stack" : [ {
+      "bytes" : "",
+      "type" : 2,
+      "uint" : 1
+    } ]
+  } ],
+  "disassembly" : [ "// version 2", "intcblock 0 1", "bytecblock 0x4d696e56616c7565 0x4d617856616c7565 0x53756d4f6656616c756573 0x4e756d6265724f6656616c756573", "intc_0", "txn ApplicationID", "==", "bnz label1", "txna ApplicationArgs 0", "btoi", "dup", "store 0", "bytec_0", "app_global_get", "!=", "bnz label2", "label2:", "bytec_0", "load 0", "app_global_put", "intc_1", "return", "label1:", "bytec_0", "intc_0", "app_global_put", "bytec_1", "intc_0", "app_global_put", "bytec_2", "intc_0", "app_global_put", "bytec_3", "intc_0", "app_global_put", "intc_1", "return", "" ],
+  "global-delta" : [ {
+    "key" : "TWluVmFsdWU=",
+    "value" : {
+      "action" : 2,
+      "bytes" : null,
+      "uint" : 8
+    }
+  } ],
+  "local-deltas" : [ ],
+  "logic-sig-messages" : [ ],
+  "logic-sig-trace" : [ ]
+}

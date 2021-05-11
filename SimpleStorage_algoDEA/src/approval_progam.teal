@@ -1,0 +1,52 @@
+#pragma version 2
+
+int 0
+txn ApplicationID
+==
+bnz creation
+
+byte "SumOfValues"
+dup
+app_global_get
+txna ApplicationArgs 0
+dup
+store 0
+btoi
++
+dup
+store 0
+app_global_put
+
+byte "NumberOfValues"
+dup
+app_global_get
+int 1
++
+dup
+store 1
+app_global_put
+
+int 0
+byte "LastValue"
+load 0
+app_local_put
+
+int 1
+return
+
+creation:
+byte "SumOfValues"
+int 0
+app_global_put
+
+byte "NumberOfValues"
+int 0
+app_global_put
+
+int 1
+return
+
+
+
+
+

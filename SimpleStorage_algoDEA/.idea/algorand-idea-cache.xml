@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="algorand-idea-cache">
+    <option name="sfCreatorAccount" value="XQR6JVXABSNCZWQH5N5JEI4BB36ZJFGRFCVLOTFYOILFAZ27HIKHPQN73Q" />
+    <option name="contract" value="SimpleStorage" />
+    <option name="appIdMap">
+      <map>
+        <entry key="SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=">
+          <value>
+            <list>
+              <option value="15829591" />
+              <option value="15829595" />
+              <option value="15829597" />
+              <option value="15829611" />
+              <option value="15832074" />
+              <option value="15834639" />
+              <option value="15834935" />
+              <option value="15834961" />
+              <option value="15834964" />
+              <option value="15834970" />
+              <option value="15834975" />
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="appIdContractMap">
+      <map>
+        <entry key="15828411" value="SimpleStorage" />
+        <entry key="15828435" value="SimpleStorage" />
+        <entry key="15828508" value="SimpleStorage" />
+        <entry key="15828509" value="SimpleStorage" />
+        <entry key="15828648" value="SimpleStorage" />
+        <entry key="15828691" value="SimpleStorage" />
+        <entry key="15828764" value="SimpleStorage" />
+        <entry key="15828777" value="SimpleStorage" />
+        <entry key="15828787" value="SimpleStorage" />
+        <entry key="15828796" value="SimpleStorage" />
+        <entry key="15828821" value="SimpleStorage" />
+        <entry key="15828847" value="SimpleStorage" />
+        <entry key="15828874" value="SimpleStorage" />
+        <entry key="15829262" value="SimpleStorage" />
+        <entry key="15829280" value="SimpleStorage" />
+        <entry key="15829282" value="SimpleStorage" />
+        <entry key="15829305" value="SimpleStorage" />
+        <entry key="15829313" value="SimpleStorage" />
+        <entry key="15829541" value="SimpleStorage" />
+        <entry key="15829542" value="SimpleStorage" />
+        <entry key="15829546" value="SimpleStorage" />
+        <entry key="15829553" value="SimpleStorage" />
+        <entry key="15829557" value="SimpleStorage" />
+        <entry key="15829575" value="SimpleStorage" />
+        <entry key="15829581" value="SimpleStorage" />
+        <entry key="15829591" value="SimpleStorage" />
+        <entry key="15829595" value="SimpleStorage" />
+        <entry key="15829597" value="SimpleStorage" />
+        <entry key="15829611" value="SimpleStorage" />
+        <entry key="15832074" value="SimpleStorage" />
+        <entry key="15834639" value="SimpleStorage" />
+        <entry key="15834935" value="SimpleStorage" />
+        <entry key="15834961" value="SimpleStorage" />
+        <entry key="15834964" value="SimpleStorage" />
+        <entry key="15834970" value="SimpleStorage" />
+        <entry key="15834975" value="SimpleStorage" />
+      </map>
+    </option>
+  </component>
+</project>

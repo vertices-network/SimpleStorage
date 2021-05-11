@@ -1,0 +1,45 @@
+[ {
+  "id" : 15828691,
+  "params" : {
+    "approval-program" : "AiACAAEmBAhNaW5WYWx1ZQhNYXhWYWx1ZQtTdW1PZlZhbHVlcw5OdW1iZXJPZlZhbHVlcyIxGBJAAC82GgAXSTUAKGQPQAAYEEk1AClkDkAAEhBJFypJZAhnIytJZAhnKDQAZyk0AGcjQygiZykiZyoiZysiZyND",
+    "clear-state-program" : "AiABASI=",
+    "creator" : "64ML7Z7AT4DRIAXQTHULOZEGQCIMD7CARETTROL2JDVMEOQQOBB7JIOFPA",
+    "global-state" : [ {
+      "key" : "U3VtT2ZWYWx1ZXM=",
+      "value" : {
+        "bytes" : "",
+        "type" : 2,
+        "uint" : 0
+      }
+    }, {
+      "key" : "TnVtYmVyT2ZWYWx1ZXM=",
+      "value" : {
+        "bytes" : "",
+        "type" : 2,
+        "uint" : 0
+      }
+    }, {
+      "key" : "TWluVmFsdWU=",
+      "value" : {
+        "bytes" : "",
+        "type" : 2,
+        "uint" : 2
+      }
+    }, {
+      "key" : "TWF4VmFsdWU=",
+      "value" : {
+        "bytes" : "",
+        "type" : 2,
+        "uint" : 2
+      }
+    } ],
+    "global-state-schema" : {
+      "num-byte-slice" : 0,
+      "num-uint" : 4
+    },
+    "local-state-schema" : {
+      "num-byte-slice" : 0,
+      "num-uint" : 0
+    }
+  }
+} ]
