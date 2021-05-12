@@ -1,7 +1,7 @@
 const algosdk = require('algosdk');
 
 // user declared account mnemonics
-userMnemonic = "cluster club region copper expire random trouble search you effort desert bamboo account feature banana vacant icon coach zebra link wing boy portion absent true";
+userMnemonic = "nation volcano business mercy champion exit dog loyal apology strong myth club screen despair taste update canal distance also chimney sample allow weekend able picture";
 
 // declare application state storage (immutable)
 localInts = 1;
@@ -107,7 +107,7 @@ async function main() {
         let userAccount = algosdk.mnemonicToSecretKey(userMnemonic);
 
         // New application
-        let appId = 15837438;
+        let appId = 15837454;
 
         // opt-in to application
         let appArgs = [];
