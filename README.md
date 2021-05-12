@@ -22,7 +22,7 @@ In this workshop, we are going to build a **STATEFUL SMART CONTRACT**.
 |Global | NumberOfValue |uint64 | Total number of values|
 |Local | LastValue | uint64 |Last value submitted|
 
-![Simple Storage Device](https://github.com/vertices-network/SimpleStorage/blob/main/Simple_Storage_Device.png)
+![Simple Storage Device](https://github.com/vertices-network/SimpleStorage/blob/main/Simple_Storage_IoT_Device.png)
 
 # Project structure
 
