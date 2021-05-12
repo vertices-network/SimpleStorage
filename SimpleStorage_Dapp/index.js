@@ -107,12 +107,12 @@ async function main() {
         let userAccount = algosdk.mnemonicToSecretKey(userMnemonic);
 
         // New application
-        let appId = 15834975;
+        let appId = 15837438;
 
         // opt-in to application
         let appArgs = [];
         appArgs.push(new Uint8Array([25]));
-        //await optInApp(algodClient, userAccount, appId, appArgs);
+        // await optInApp(algodClient, userAccount, appId, appArgs);
         // call application with arguments
         await callApp(algodClient, userAccount, appId, appArgs);
     }
