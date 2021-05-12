@@ -3,48 +3,44 @@
 int 0
 txn ApplicationID
 ==
-bnz creation
+bnz creation                // Initialize application on creation
 
-byte "SumOfValues"
-dup
-app_global_get
-txna ApplicationArgs 0
-dup
-store 0
-btoi
-+
-dup
-store 0
-app_global_put
+byte "SumOfValues"          // Define SumOfValues key
+dup                         // Duplicate SumOfValues key on the stack
+app_global_get              // Get SumOfValues value
+txna ApplicationArgs 0      // Get first argument
+btoi                        // Convert argument to integer
+dup                         // Duplicate argument
+store 0                     // Store argument in scratch space
++                           // Add up SumOfValues value with first argument
+app_global_put              // Store result in SumOfValues  
 
-byte "NumberOfValues"
-dup
-app_global_get
-int 1
-+
-dup
-store 1
-app_global_put
+byte "NumberOfValues"       // Define NumberOfValues key
+dup                         // Duplicate NumberOfValues key on the stack
+app_global_get              // Get NumberOfValues value
+int 1                       // Define integer 1
++                           // Add up NumberOfValues with interger 1
+app_global_put              // Store result in NumberOfValues               
 
-int 0
-byte "LastValue"
-load 0
-app_local_put
+int 0                       // Index of sender
+byte "LastValue"            // Define LastValue key
+load 0                      // Load argument from scratch space
+app_local_put               // Store argument in account space
 
 int 1
-return
+return                      // Return success
 
 creation:
 byte "SumOfValues"
 int 0
-app_global_put
+app_global_put              // Initialize SumOfValues to 0
 
 byte "NumberOfValues"
 int 0
-app_global_put
+app_global_put              // Initialize NumberOfValues to 0
 
 int 1
-return
+return                      // Return success
 
 
 
