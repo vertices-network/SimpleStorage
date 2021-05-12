@@ -65,13 +65,13 @@ Once your environment is ready, follow these steps:
 ```
 cd SimpleStorage_Dapp
 npm i
-````
+```
 2. Run the project.
-````
+```
 node index.js
-````
+```
 3. You should have an output similar to this:
-````
+```
 (base) MBP-de-Ted:SimpleStorage_Dapp tednivan$ node index.js 
 Signed transaction with txID: DB3PC3AV5VWPNYRDMD523HE56KN53YIM6PKXT624JH2SHV5LXW5A
 Transaction DB3PC3AV5VWPNYRDMD523HE56KN53YIM6PKXT624JH2SHV5LXW5A confirmed in round 14099795
