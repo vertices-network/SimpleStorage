@@ -3,7 +3,7 @@
   "version" : "1.0",
   "stateful_contracts" : [ {
     "name" : "SimpleStorage",
-    "approval_program" : "src/approval_progam.teal",
+    "approval_program" : "src/approval_program.teal",
     "clear_state_program" : "src/clear_state_program.teal",
     "global-byteslices" : 0,
     "global-ints" : 2,
