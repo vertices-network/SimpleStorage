@@ -1,34 +1,45 @@
 #pragma version 2
+// SimpleStorage
+// Anyone can interact with this App.
+// Arg:
+//  1 - {uint}
 
-int 0
+// Initialize application on creation
 txn ApplicationID
+int 0
 ==
-bnz creation                // Initialize application on creation
+bnz creation
 
-byte "SumOfValues"          // Define SumOfValues key
-dup                         // Duplicate SumOfValues key on the stack
-app_global_get              // Get SumOfValues value
-txna ApplicationArgs 0      // Get first argument
-btoi                        // Convert argument to integer
-dup                         // Duplicate argument
-store 0                     // Store argument in scratch space
-+                           // Add up SumOfValues value with first argument
-app_global_put              // Store result in SumOfValues  
+// Handle each possible OnCompletion type. We don't have to worry about
+// handling ClearState, because the ClearStateProgram will execute in that
+// case, not the ApprovalProgram.
+txn OnCompletion
+int NoOp
+==
+bnz handle_noop
 
-byte "NumberOfValues"       // Define NumberOfValues key
-dup                         // Duplicate NumberOfValues key on the stack
-app_global_get              // Get NumberOfValues value
-int 1                       // Define integer 1
-+                           // Add up NumberOfValues with interger 1
-app_global_put              // Store result in NumberOfValues               
+txn OnCompletion
+int OptIn
+==
+bnz handle_optin
 
-int 0                       // Index of sender
-byte "LastValue"            // Define LastValue key
-load 0                      // Load argument from scratch space
-app_local_put               // Store argument in account space
+txn OnCompletion
+int CloseOut
+==
+bnz handle_closeout
 
-int 1
-return                      // Return success
+txn OnCompletion
+int UpdateApplication
+==
+bnz handle_updateapp
+
+txn OnCompletion
+int DeleteApplication
+==
+bnz handle_deleteapp
+
+// Unexpected OnCompletion value. Should be unreachable.
+err
 
 creation:
 byte "SumOfValues"
@@ -42,7 +53,39 @@ app_global_put              // Initialize NumberOfValues to 0
 int 1
 return                      // Return success
 
+handle_noop:
+byte "SumOfValues"          // Define SumOfValues key
+dup                         // Duplicate SumOfValues key on the stack
+app_global_get              // Get SumOfValues value
+txna ApplicationArgs 0      // Get first argument
+btoi                        // Convert argument to integer
+dup                         // Duplicate argument
+store 0                     // Store argument in scratch space
++                           // Add up SumOfValues value with first argument
+app_global_put              // Store result in SumOfValues
 
+byte "NumberOfValues"       // Define NumberOfValues key
+dup                         // Duplicate NumberOfValues key on the stack
+app_global_get              // Get NumberOfValues value
+int 1                       // Define integer 1
++                           // Add up NumberOfValues with interger 1
+app_global_put              // Store result in NumberOfValues
 
+int 0                       // Index of sender
+byte "LastValue"            // Define LastValue key
+load 0                      // Load argument from scratch space
+app_local_put               // Store argument in account space
 
+int 1
+return                      // Return success
 
+handle_optin:
+handle_closeout:
+int 1
+return
+
+// By default, disallow updating or deleting the app. Add custom authorization
+// logic below to allow updating or deletion in certain circumstances.
+handle_updateapp:
+handle_deleteapp:
+err

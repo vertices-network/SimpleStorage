@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="algorand-idea-cache">
-    <option name="sfCreatorAccount" value="XQR6JVXABSNCZWQH5N5JEI4BB36ZJFGRFCVLOTFYOILFAZ27HIKHPQN73Q" />
+    <option name="sfCreatorAccount" value="JU3W3ZTNGBJSBPKAAHITP4ETSWL5MUL4PSVFQEBJI74LTI5V7Z7J5ZQWGU" />
     <option name="contract" value="SimpleStorage" />
     <option name="appIdMap">
       <map>
         <entry key="SGO1GKSzyE7IEPItTxCByw9x8FmnrCDexi9/cOUJOiI=">
           <value>
             <list>
-              <option value="15829591" />
-              <option value="15829595" />
-              <option value="15829597" />
               <option value="15829611" />
               <option value="15832074" />
               <option value="15834639" />
@@ -19,6 +16,9 @@
               <option value="15834964" />
               <option value="15834970" />
               <option value="15834975" />
+              <option value="18218433" />
+              <option value="18220136" />
+              <option value="18223162" />
             </list>
           </value>
         </entry>
@@ -62,6 +62,9 @@
         <entry key="15834964" value="SimpleStorage" />
         <entry key="15834970" value="SimpleStorage" />
         <entry key="15834975" value="SimpleStorage" />
+        <entry key="18218433" value="SimpleStorage" />
+        <entry key="18220136" value="SimpleStorage" />
+        <entry key="18223162" value="SimpleStorage" />
       </map>
     </option>
   </component>
